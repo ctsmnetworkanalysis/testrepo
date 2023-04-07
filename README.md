@@ -2,20 +2,22 @@
 
 **Reliabilitytk** is an R library for reliability engineering computations.
 
-### Quick links
+### Documentation
 
-* [umd website?](website) (Documentation)
-
+* Documentation is included as standard R help files
 
 ### Getting Started
 
-Installation instructions for Reliabilitytk:
+Installation instructions from source for Reliabilitytk:
 
 * install.packages("devtools")
 * library(devtools)
+* # If Rtools is installed, build from source:
 * devtools::install_github("ReuS009/reliabilitytk")
+* # Otherwise, use the following:
+* devtools::install_github("ReuS009/reliabilitytk", build = FALSE)
 
-Run Unit tests for Reliabilitytk:
+Running Unit tests for Reliabilitytk:
 
 * install.packages("testthat")
 * setwd("[File location of reliabilitytk library]")
@@ -27,4 +29,4 @@ Reliabilitytk's source code repository is hosted here on GitHub.
 
 ### Licensing
 
-Reliabilitytk is licensed under _____.
+Reliabilitytk is licensed under GPLv3.
