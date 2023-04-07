@@ -1,4 +1,4 @@
-# Reliabilitytk 
+# Reliability-Modeling-Toolkit, aka Reliabilitytk
 
 **Reliabilitytk** is an R library for reliability engineering computations.
 
