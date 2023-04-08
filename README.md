@@ -12,9 +12,9 @@ Installation instructions from source for Reliabilitytk:
 
 * install.packages("devtools")
 * library(devtools)
-* **If Rtools is installed, build from source:
+* **If Rtools is installed, build from source:**
 * devtools::install_github("ReuS009/reliabilitytk")
-* **Otherwise, use the following:
+* **Otherwise, use the following:**
 * devtools::install_github("ReuS009/reliabilitytk", build = FALSE)
 
 Running Unit tests for Reliabilitytk:
